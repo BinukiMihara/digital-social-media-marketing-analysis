@@ -1,0 +1,32 @@
+# Virtual Environment
+env/
+.env/
+
+# Python Bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE and Editor Configurations
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.cache/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Environment files
+*.env
