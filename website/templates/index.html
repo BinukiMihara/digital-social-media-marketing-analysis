@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title> Digital and Social Media Marketing Predictor</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="title">
+            User Conversion Predictor
+        </div>
+        <form class="form" action="/" method="POST">
+            <div class="inputfield">
+                <label for="age">Age</label>
+                <input type="text" class="input" name="age" required>
+            </div>
+
+            <div class="inputfield">
+                <label for="gender">Gender</label>
+                <div class="custom_select">
+                    <select name="gender" id="gender">
+                        <option value="" selected hidden>Select</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="inputfield">
+                <label for="income">Annual Income (LKR)</label>
+                <input type="text" class="input" name="income" required>
+            </div>
+
+            <div class="inputfield">
+                <label for="score">Spending Score (1-100)</label>
+                <input type="text" class="input" name="score" required>
+            </div>
+
+            <div class="inputfield">
+                <label for="clicks">Social Media Clicks</label>
+                <input type="text" class="input" name="clicks" required>
+            </div>
+
+            <div class="inputfield">
+                <label for="likes">Social Media Likes</label>
+                <input type="text" class="input" name="likes" required>
+            </div>
+
+            <div class="inputfield">
+                <label for="shares">Social Media Shares</label>
+                <input type="text" class="input" name="shares" required>
+            </div>
+
+            <div class="inputfield">
+                <input type="submit" class="btn" value="Predict User Conversion">
+            </div>
+        </form>
+        <div class="output">
+            {% if pred != 0 %}
+            <p>
+                User Conversion: LKR{{pred}}
+            </p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+
+</html>
