@@ -51,3 +51,6 @@ Follow these steps to set up the project environment:
 2. **Open and Explore Notebooks**
    
    Navigate to the notebook file (e.g., Digital Social Media Marketing Assignment.ipynb) and open it to start exploring the data and running analyses.
+
+   <!-- Add image -->
+![digital-social-media-marketing-analysis](./website/static/UI.png)
