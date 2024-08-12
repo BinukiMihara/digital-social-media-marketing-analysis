@@ -20,7 +20,7 @@ Follow these steps to set up the project environment:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/lahiruudayakumara/digital-social-media-marketing-analysis.git
+   git clone https://github.com/BinukiMihara/digital-social-media-marketing-analysis.git
    cd digital-social-media-marketing-analysis
    ```
 2. **Create and Activate a Virtual Environment**
